@@ -1,0 +1,31 @@
+2011/12/01 - Rather than wait longer to get these files in a form that
+makes sense, I am committing them to github as they are without making
+sense. If you are able to figure this out without documentation, you
+are truly ahead of the curve. I couldn't. If you need the
+documentation, PLEASE DO NOT EMAIL ME AND ASK FOR IT. The
+documentation will be the very next thing I do on this project, so
+please be patient. You can watch at:
+
+https://github.com/evilgeniuschronicles/Kindle-Language-Dictionaries
+
+to find out when that is committed.
+
+Priorities:
+
+1. Document the process of taking these files and creating a working
+Kindle dictionary.  
+
+2. Update the translation script. In the time since I wrote this hack,
+Google has closed this loophole and now requires you to go through
+their API (and charges money for it.)
+
+3. Create generalized procedures for creating a dictionary for any
+language to another language.
+
+Submit patches and feedback and anything but requests for instruction
+on using these files to dave@daveslusher.com. Thank you for your
+interest and if you want to thank me, go to
+http://www.evilgeniuschronicles.org/ and click an Amazon ad before you
+buy something sometime.
+
+Dave
