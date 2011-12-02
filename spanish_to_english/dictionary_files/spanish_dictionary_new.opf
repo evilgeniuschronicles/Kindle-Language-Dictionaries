@@ -1,0 +1,61 @@
+<?xml version="1.0"?><!DOCTYPE package SYSTEM "oeb1.ent">
+
+<!-- the command line instruction 'prcgen dictionary.opf' will produce the dictionary.prc file in the same folder-->
+<!-- the command line instruction 'mobigen dictionary.opf' will produce the dictionary.mobi file in the same folder-->
+
+<package unique-identifier="uid" xmlns:dc="Dublin Core">
+
+<metadata>
+	<dc-metadata>
+		<dc:Identifier id="uid">spanish_dictionary_new</dc:Identifier>
+		<!-- Title of the document -->
+		<dc:Title><h2>spanish_dictionary_new</h2></dc:Title>
+		<dc:Language>EN</dc:Language>
+	</dc-metadata>
+	<x-metadata>
+		<output encoding="Windows-1252" flatten-dynamic-dir="yes"/>
+		<DictionaryInLanguage>en-us</DictionaryInLanguage>
+		<DictionaryOutLanguage>en-us</DictionaryOutLanguage>
+	</x-metadata>
+</metadata>
+
+<!-- list of all the files needed to produce the .prc file -->
+<manifest>
+ <item id="dictionary0" href="spanish_dictionary_new0.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary1" href="spanish_dictionary_new1.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary2" href="spanish_dictionary_new2.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary3" href="spanish_dictionary_new3.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary4" href="spanish_dictionary_new4.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary5" href="spanish_dictionary_new5.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary6" href="spanish_dictionary_new6.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary7" href="spanish_dictionary_new7.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary8" href="spanish_dictionary_new8.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary9" href="spanish_dictionary_new9.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary10" href="spanish_dictionary_new10.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary11" href="spanish_dictionary_new11.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary12" href="spanish_dictionary_new12.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary13" href="spanish_dictionary_new13.html" media-type="text/x-oeb1-document"/>
+</manifest>
+
+
+<!-- list of the html files in the correct order  -->
+<spine>
+	<itemref idref="dictionary0"/>
+	<itemref idref="dictionary1"/>
+	<itemref idref="dictionary2"/>
+	<itemref idref="dictionary3"/>
+	<itemref idref="dictionary4"/>
+	<itemref idref="dictionary5"/>
+	<itemref idref="dictionary6"/>
+	<itemref idref="dictionary7"/>
+	<itemref idref="dictionary8"/>
+	<itemref idref="dictionary9"/>
+	<itemref idref="dictionary10"/>
+	<itemref idref="dictionary11"/>
+	<itemref idref="dictionary12"/>
+	<itemref idref="dictionary13"/>
+</spine>
+
+<tours/>
+<guide> <reference type="search" title="Dictionary Search" onclick= "index_search()"/> </guide>
+</package>
